@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+body{
+    font-family: 'Slabo 27px', serif;
+    background-image: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);
+}
+
+a:hover{
+    color:black;
+    font-style: bold, italic;
+}
+
+h2, a, p {
+    color:whitesmoke;
+}
