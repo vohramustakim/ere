@@ -1,9 +1,9 @@
 var exports = module.exports = {};
 
 const Sequelize = require('sequelize');
-var sequelize = new Sequelize('', '', '', {
-    host: '',
-    dialect: '',
+var sequelize = new Sequelize('d98pv77hf3v89v', 'qohdftgzfuhued', '10e673cac30d2dbc3049178ea0c81b17a76f71fae65d4afca27017a6b3049bd2', {
+    host: 'ec2-107-22-245-82.compute-1.amazonaws.com',
+    dialect: 'postgres',
     port: 5432,
     dialectOptions: {
         ssl: { rejectUnauthorized: false }
